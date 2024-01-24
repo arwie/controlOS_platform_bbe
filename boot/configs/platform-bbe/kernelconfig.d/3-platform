@@ -1,5 +1,7 @@
 CONFIG_EXTRA_FIRMWARE="am335x-pm-firmware.elf am335x-bone-scale-data.bin am335x-evm-scale-data.bin"
 
+CONFIG_KERNEL_XZ=y
+
 # CONFIG_SMP is not set
 # CONFIG_EFI is not set
 # CONFIG_USB_SUPPORT is not set

@@ -1,9 +1,8 @@
 CONFIG_INITRAMFS_SOURCE="${PTXDIST_WORKSPACE}/../initramfs/platform-bbe/images/root.cpio"
 
-CONFIG_CMDLINE="console=ttyS0,115200n8"
-
 CONFIG_EXTRA_FIRMWARE="am335x-pm-firmware.elf am335x-bone-scale-data.bin am335x-evm-scale-data.bin"
 
+CONFIG_KERNEL_XZ=y
 
 # CONFIG_SMP is not set
 # CONFIG_EFI is not set

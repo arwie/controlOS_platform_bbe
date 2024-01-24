@@ -2,4 +2,4 @@
 
 global.bootm.image=/boot/linux.bin
 global.bootm.oftree=/boot/linux.dtb
-global.linux.bootargs.console="console=ttyS0,115200n8"
+global.linux.bootargs.console="mitigations=off console=ttyS0,115200n8"
